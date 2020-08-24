@@ -1,0 +1,12 @@
+pymongo
+flask
+gunicorn
+flasgger
+requests
+psutil
+pytest
+marshmallow
+graypy==0.3.2
+pebble
+pytest-repeat
+black

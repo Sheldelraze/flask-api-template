@@ -1,0 +1,49 @@
+Sample POST request
+---
+tags:
+  - sample
+parameters:
+  - name: body
+    in: body
+    required: true
+    description: Request body
+    schema:
+        $ref: '#/definitions/SubmitSample'
+definitions:
+  SubmitSample:
+    type: object
+    properties:
+        user_id:
+            type: string
+            description: "User unique ID"
+            required: true
+        event_timestamp:
+            type: number
+            description: "UNIX timestamp"
+            required: true
+        params_three:
+            type: integer
+            description: "Some random required integer"
+            required: true
+        params_four:
+            type: string
+            description: "Some random required string"
+            required: true
+responses:
+  200:
+    description: |
+      Return something
+    examples:
+      application/json: {
+        "message" : {
+           "success" : true,
+           "internalMessage" : "",
+           "error_code" : 0
+        },
+        "data" : {
+           "answer" : "Baby don't hurt me..."
+        },
+        "time_elapsed" : 0
+     }
+     
+     

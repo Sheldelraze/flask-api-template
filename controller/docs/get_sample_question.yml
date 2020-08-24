@@ -1,0 +1,43 @@
+Sample GET request
+---
+tags:
+  - sample
+parameters:
+  - name: user_id
+    in: query
+    type: string
+    required: true
+    description: "Unique user ID"
+  - name: event_timestamp
+    in: query
+    type: number
+    required: true
+    description: "UNIX timestamp (in second)"
+  - name: params_one
+    in: query
+    type: string
+    required: true
+    description: "Some random required string"
+  - name: params_two
+    in: query
+    type: integer
+    required: true
+    description: "Some random required integer"
+
+responses:
+  200:
+    description: |
+      Return something
+    examples:
+      application/json: {
+        "message" : {
+           "error_code" : 0,
+           "internalMessage" : "",
+           "success" : true
+        },
+        "data" : {
+           "question" : "What is love?"
+        },
+        "time_elapsed" : 0
+     }
+     
