@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
+<div align="center">
   <a href="https://github.com/Sheldelraze/flask-api-template">
     <img src="logo.png" alt="Logo" width='40%'>
   </a>
@@ -10,7 +10,7 @@
   <p align="center">
     An awesome Flask template to jumpstart your projects!
   </p>
-</p>
+</div>
 
 
 
