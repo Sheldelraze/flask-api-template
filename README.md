@@ -216,7 +216,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the GNU GPLv3 License. See `LICENSE` for more information.
+Distributed under the Unlicense License. See [LICENSE](https://github.com/Sheldelraze/flask-api-template/blob/master/LICENSE) for more information.
 
 
 
